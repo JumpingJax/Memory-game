@@ -153,8 +153,7 @@ class Game:
                
       # responds to one mouse click on screen; that means flipping the
       # tile
-      #print("Screen was clicked at " + str(event.pos))
-      pass
+     
    def draw(self):
       
       # Draw all game objects.
@@ -171,9 +170,7 @@ class Game:
       # - self is the Game to update
       
       self.score= pygame.time.get_ticks()//1000
-      
-      #return self.score
-      pass
+     
    def decide_continue(self):
       filled_tiles = [ ]
       
